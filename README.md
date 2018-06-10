@@ -85,7 +85,7 @@ It should look something like this now:
 
 * In the browser you can hit "close" in the bottom left and it should take you to the users panel:
 
-- I have two users and two groups because I already did this once, but if you haven't,you should only see one user with one group name
+- I have two users and two groups because I already did this once, but if you haven't, you should only see one user with one group name
 
 ![users panel updated](https://imgur.com/PdhqRz9.png)
 ---
