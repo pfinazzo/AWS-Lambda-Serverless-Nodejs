@@ -107,13 +107,11 @@ It should look something like this now:
 --- 
 ## Connect Node to AWS
 
-* cd into the root directory of an empty directory and then in bash type the following (note this has already been done in this repo. This command creates the boilerplate code so this step is not neccesary if you are starting from cloning or downloading this repo, only perform this command if you are starting by creating and empty directory and cding into it):
+At the beginning of this tutorial we created an empty directory and cd'd into it. If you haven't dont this yet type the following:
 
-- type: 
+$ mkdir MY_REPO_NAME && cd MY_REPO_NAME
 
-* $ mkdir whatever_you_want_to_call_this_project && cd whatever_you_want_to_call_this_project
-
-- then inside the project type:
+Once your terminal's working directory is the root of your project type the following:
 
 * $ serverless create -t aws-nodejs 
 
