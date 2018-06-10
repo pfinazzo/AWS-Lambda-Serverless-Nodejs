@@ -21,7 +21,7 @@
 
 - Note: If you already have an IAM User you can skip these first few steps and go straight to accessing the credentials
 
-* First sign into the AWS [console](https://aws.amazon.com/console/). If you have never used AWS you will have to sign up for an account, where you'll have to put in credit card info: don't worry, you get millions of requests for free and AWS is super cheap so don't worry about being charged. 
+* First sign into the AWS [console](https://aws.amazon.com/console/). If you have never used AWS you will have to sign up for an account, where you'll have to put in credit card info: don't worry, you get millions of requests for free and AWS is super cheap so don't worry about being charged for now. 
 
 * Then click on your account name in the top right and select "My Security Credentials"
 
