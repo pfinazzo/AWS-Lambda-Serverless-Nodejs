@@ -15,7 +15,7 @@
 
 ## Steps:
 ---
-### Make a IAM User
+### Make an IAM User
 
 - To start off with we need to make an IAM User (Identity and Access Management User) for your AWS account. Technically we could use the root user but its never a good idea because it will give anyone who signs in full access to everything in your AWS including your billing so its best to make separate authorized IAM users
 
