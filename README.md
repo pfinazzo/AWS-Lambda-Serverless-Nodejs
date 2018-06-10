@@ -146,8 +146,7 @@ AWESOME! Your terminal should have logged out your endpoints for each function! 
 
 If this didn't work, your terminal should display some errors that you can troubleshoot. 
 
-I found that my mosty common source of errors was indentation on my serverless.yml page, the indentation must be EXACTLY correct or it will not understand it.
-
+I found that my mosty common source of errors was indentation on my serverless.yml page. The indentation must be EXACTLY the same as in this repo or it will not understand it.
 
 ---
 ## Learn More
