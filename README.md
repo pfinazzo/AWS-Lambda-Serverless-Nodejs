@@ -4,7 +4,7 @@
 
 * Great for creating RESTful API's
 
-* Taken from ![tutorial]('https://www.youtube.com/watch?v=71cd5XerKss')
+* Taken from [tutorial]('https://www.youtube.com/watch?v=71cd5XerKss')
 
 * To partake in this tutorial you must install serverless globally to your computer
 
@@ -22,7 +22,7 @@ $ npm i -g serverless
 
 * First go in to AWS sign into the console and create an IAM user. To do this click on your account at the top right and select "My Security Credentials"
 
- screenshot 1
+ ![]('https://imgur.com/Ocrjtkc.png')
 
 * Next when the popup comes up click "Get Started with IAM Users" which will take you to the Users Panel, mine has my user but if you don't have any none will show up here just yet
 
