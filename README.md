@@ -8,7 +8,7 @@
 
 * To partake in this tutorial you must install serverless globally to your computer
 
-- to do this in bash type:
+- to do this in bash type the following bash command:
 
 $ npm i -g serverless
 
@@ -113,17 +113,19 @@ It should look something like this now:
 
 * in the root directory of your project type the following: 
 
-$ serverless config credentials --provider aws --key ACCESS_KEY --secret SECRET
+$ serverless config credentials --provider aws --key MY_ACCESS_KEY --secret MY_SECRET
 
-* make sure to replace "ACCESS_KEY" and SECRET with your actual access key and secret values found in your csv file
+* make sure to replace "MY_ACCESS_KEY" and "MY_SECRET" with your actual access key and secret values found in your csv file
 
 - Note if you are doing this for the second time you will have to overwrite your previous version using the "-o" flag 
 
 * this will create a new hidden file on your computer located at ~/.aws/credentials
 
-* to make sure it worked you can type 
+* to make sure it worked you can type the following: 
 
-$ cat ~/.aws/credentials and it should list all your access keys
+$ cat ~/.aws/credentials 
+
+* it should list your access key and secret
 
 * Finally in bash, still in the root directory of your project type the following:
 
