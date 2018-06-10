@@ -14,10 +14,19 @@
 --- 
 
 ## Steps:
+
+You do not need to clone this repo! Its actually better to learn by creating it from scratch through this tutorial:
+
+You can start by creating a new directory and cding into it. We will use this directory later to nest our node code in.
+
+$ mkdir REPO_NAME && cd REPO_NAME
+
+You should be in this working directory for the rest of bash commands that come later in this tutorial. Let's start by heading to the browser and creating a IAM (Identity and Access Management) User in AWS. 
+
 ---
 ### Make an IAM User
 
-- To start off with we need to make an IAM User (Identity and Access Management User) for your AWS account. Technically we could use the root user but its never a good idea because it will give anyone who signs in full access to everything in your AWS including your billing so its best to make separate authorized IAM users
+- Technically we could use the root user but its never a good idea because it will give anyone who signs in full access to everything in your AWS including your billing so its best to make separate authorized IAM users
 
 - Note: If you already have an IAM User you can skip these first few steps and go straight to accessing the credentials
 
