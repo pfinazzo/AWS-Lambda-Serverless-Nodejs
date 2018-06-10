@@ -17,7 +17,7 @@
 
 - To start off with we need to make an IAM User (Identity and Access Management User) for your AWS account. Technically we could use the root user but its never a good idea because it will give anyone who signs in full access to everything in your AWS including your billing so its best to make separate authorized IAM users
 
-- Note: If you already have an IAM User you ca skip these first few steps and go straight to accessing the credentials
+- Note: If you already have an IAM User you can skip these first few steps and go straight to accessing the credentials
 
 * First go in to AWS and sign into the console. Then click on your account name in the top right and select "My Security Credentials"
 
