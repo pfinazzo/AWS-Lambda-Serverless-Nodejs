@@ -22,7 +22,7 @@ $ npm i -g serverless
 
 * First go in to AWS sign into the console and create an IAM user. To do this click on your account at the top right and select "My Security Credentials"
 
- ![]('https://imgur.com/Ocrjtkc.png')
+ ![My Credentials](https://imgur.com/Ocrjtkc.png)
 
 * Next when the popup comes up click "Get Started with IAM Users" which will take you to the Users Panel, mine has my user but if you don't have any none will show up here just yet
 
