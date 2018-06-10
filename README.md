@@ -1,5 +1,5 @@
-## AWS Lambda with Node.js and Serverless
-
+# AWS Lambda with Node.js and Serverless
+--- 
 * Really useful way to create serverless AWS Lambda functions in node
 
 * Great for creating RESTful API's
@@ -11,6 +11,7 @@
 - to do this in bash type the following bash command:
 
 $ npm i -g serverless
+--- 
 
 ## Steps:
 
@@ -18,11 +19,11 @@ $ npm i -g serverless
 
 - Note: If you already have an IAM User you ca skip these first few steps and go straight to accessing the credentials
 
-* First go in to AWS sign into the console and create an IAM user. To do this click on your account at the top right and select "My Security Credentials"
+* First go in to AWS and sign into the console. Then click on your account name in the top right and select "My Security Credentials"
 
  ![My Credentials](https://imgur.com/Ocrjtkc.png)
 
-* Next when the popup comes up click "Get Started with IAM Users" which will take you to the Users Panel, mine has my user but if you don't have any none will show up here just yet
+* Next when the modal comes up click "Get Started with IAM Users" which will take you to the Users Panel. Mine already has a user but if you don't have any none will show up here just yet.
 
 ![Get Started](https://imgur.com/PjFU44l.png)
 
@@ -46,13 +47,13 @@ It should look something like this now:
 
 ![next: permissions](https://imgur.com/MaqXR5L.png)
 
-* Now you'll be taken to a page where your user must be added to a group, but you most likely haven't created any groups as of yet unless you have already created a user in which case you probably wouldn't be reading this tutorial. I already have one but to demonstrate I will create another group
+* Now you'll be taken to a page where your user must be added to a group, but you most likely haven't created any groups as of yet unless you have already created a user in the past, in which case you probably wouldn't be reading this tutorial. I already have one, but for the sake of demonstration, I will create another group
 
 * To create a new group click the "Create Group" button in the top left
 
 ![create group](https://imgur.com/dZImLRH.png)
 
-* Here is an important part: Make sure you select the "AdministratorAccess" checkbox after you type in your new group name and then you can click the blue "Create Group" button in the bottom right of the modal. 
+* Make sure you select the "AdministratorAccess" checkbox after you type in your new group name and then you can click the blue "Create Group" button in the bottom right of the modal. 
 
 ![group policy add admin access](https://imgur.com/6hiGPmd.png)
 
@@ -71,7 +72,7 @@ It should look something like this now:
 
 * In the browser you can hit "close" in the bottom left and it should take you to the users panel:
 
-- again I only have two users and two groups because I already did this once, if you haven't you should only see one user with one group name
+- I have two users and two groups because I already did this once, but if you haven't,you should only see one user with one group name
 
 ![users panel updated](https://imgur.com/PdhqRz9.png)
 
@@ -81,17 +82,26 @@ It should look something like this now:
 
 ![user info page](https://imgur.com/gekaou0.png)
 
-* Select the tab that says "security credentials" and scroll down to the part where it says "Access Keys". Click "Create Access Key". When the modal pops up make sure to hit download CSV file as this will allow you to keep these keys on your computer. 
-
-![access keys on user](https://imgur.com/HplmWmw.png)
+* Select the tab that says "Security Credentials" and scroll down to the part where it says "Access Keys". Click "Create Access Key". When the modal pops up make sure to hit "download CSV file" as this will allow you to keep these keys on your computer in an excel spreadsheet.
 
 - Note: YOU CAN ONLY DOWNLOAD THIS FILE ONCE, IF YOU FORGET YOUR SECRET AND ACCESS KEY YOU WILL HAVE TO RECREATE YOUR ACCESS KEYS
 
-* Now that we have our csv file with our ACCESS KEY and SECRET we can now connect to our lambda function with bash
+![access keys on user](https://imgur.com/HplmWmw.png)
+
+--- 
+## Connect Node to AWS
+---
 
 - Now its time to connect our code to AWS with serverless
+---
 
-* cd into the root directory of this project and then in bash type the following (note this has already been done in this repo, this creates the boilerplate code so this step is not neccesary if you are starting from cloning or downloading this repo, only perform this command if you are starting by creating and empty directory and cding into it):
+* cd into the root directory of an empty directory and then in bash type the following (note this has already been done in this repo. This command creates the boilerplate code so this step is not neccesary if you are starting from cloning or downloading this repo, only perform this command if you are starting by creating and empty directory and cding into it):
+
+- type: 
+
+* $ mkdir whatever_you_want_to_call_this_project && cd whatever_you_want_to_call_this_project
+
+- then inside the project type:
 
 * $ serverless create -t aws-nodejs 
 
@@ -131,13 +141,29 @@ $ cat ~/.aws/credentials
 
 - $ serverless deploy
 
-AWESOME! Your terminal should have logged out your endpoints for each function! If you have a json viewer extension installed in your brower, navigate to these endpoints and you can view the json that is returned!
+---
+
+:+1 AWESOME! Your terminal should have logged out your endpoints for each function! If you have a json viewer extension installed in your brower, navigate to these endpoints and you can view the json that is returned!
+
+--- 
+## Troubleshooting
+---
 
 If this didn't work, your terminal should display some errors that you can troubleshoot. 
 
 I found that my mosty common source of errors was indentation on my serverless.yml page, the indentation must be EXACTLY correct or it will not understand it.
 
+
+---
+## Learn More
+---
+
+If you want to learn more about using Serverless checkout the [documentation](https://serverless.com/)!
+
+--- 
+
 Hope you enjoyed. Have fun creating your own RESTful API's and serverless code!
+
 
 
 
