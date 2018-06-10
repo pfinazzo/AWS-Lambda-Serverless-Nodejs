@@ -4,7 +4,7 @@
 
 * Great for creating RESTful API's
 
-* Taken from [tutorial]('https://www.youtube.com/watch?v=71cd5XerKss')
+* Taken from [tutorial](https://www.youtube.com/watch?v=71cd5XerKss)
 
 * To partake in this tutorial you must install serverless globally to your computer
 
