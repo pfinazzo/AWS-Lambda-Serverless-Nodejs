@@ -14,12 +14,16 @@
 --- 
 
 ## Steps:
+---
+### Make a IAM User
 
 - To start off with we need to make an IAM User (Identity and Access Management User) for your AWS account. Technically we could use the root user but its never a good idea because it will give anyone who signs in full access to everything in your AWS including your billing so its best to make separate authorized IAM users
 
 - Note: If you already have an IAM User you can skip these first few steps and go straight to accessing the credentials
 
-* First go in to AWS and sign into the console. Then click on your account name in the top right and select "My Security Credentials"
+* First sign into the AWS [console](https://aws.amazon.com/console/). If you have never used AWS you will have to sign up for an account, where you'll have to put in credit card info: don't worry, you get millions of requests for free and AWS is super cheap so don't worry about being charged. 
+
+* Then click on your account name in the top right and select "My Security Credentials"
 
  ![My Credentials](https://imgur.com/Ocrjtkc.png)
 
@@ -75,6 +79,9 @@ It should look something like this now:
 - I have two users and two groups because I already did this once, but if you haven't,you should only see one user with one group name
 
 ![users panel updated](https://imgur.com/PdhqRz9.png)
+---
+
+### Create an access key for your IAM User
 
 - Now we need to create an access key
 
