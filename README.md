@@ -8,7 +8,7 @@
 
 * To partake in this tutorial you must install serverless globally to your computer
 
-- to do this in bash type the following bash command:
+- To do this in bash type the following command:
 
 * $ npm i -g serverless
 --- 
@@ -35,7 +35,7 @@
 
 ![Add User Page](https://imgur.com/YbOqJyR.png)
 
-* After you name your user check the box that says "AWS Management Console Access" and then select "Custom Password" from the radio button inputs, and then create a custom password
+* After you name your user check the box that says "AWS Management Console Access" and then select "Custom Password" from the radio button style inputs, and then create a custom password
 
 * If this is a user account for another person you can optionally set it so that they must reset their password at the next sign-in. Since this is just for me I am going to uncheck that box. 
 
