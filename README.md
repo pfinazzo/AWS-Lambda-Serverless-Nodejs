@@ -10,7 +10,7 @@
 
 - to do this in bash type the following bash command:
 
-$ npm i -g serverless
+* $ npm i -g serverless
 --- 
 
 ## Steps:
@@ -90,10 +90,6 @@ It should look something like this now:
 
 --- 
 ## Connect Node to AWS
----
-
-- Now its time to connect our code to AWS with serverless
----
 
 * cd into the root directory of an empty directory and then in bash type the following (note this has already been done in this repo. This command creates the boilerplate code so this step is not neccesary if you are starting from cloning or downloading this repo, only perform this command if you are starting by creating and empty directory and cding into it):
 
@@ -143,11 +139,10 @@ $ cat ~/.aws/credentials
 
 ---
 
-:+1 AWESOME! Your terminal should have logged out your endpoints for each function! If you have a json viewer extension installed in your brower, navigate to these endpoints and you can view the json that is returned!
+AWESOME! Your terminal should have logged out your endpoints for each function! If you have a json viewer extension installed in your brower, navigate to these endpoints and you can view the json that is returned!
 
 --- 
 ## Troubleshooting
----
 
 If this didn't work, your terminal should display some errors that you can troubleshoot. 
 
@@ -156,7 +151,6 @@ I found that my mosty common source of errors was indentation on my serverless.y
 
 ---
 ## Learn More
----
 
 If you want to learn more about using Serverless checkout the [documentation](https://serverless.com/)!
 
