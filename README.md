@@ -12,8 +12,6 @@
 
 $ npm i -g serverless
 
-
-
 ## Steps:
 
 - To start off with we need to make an IAM User (Identity and Access Management User) for your AWS account. Technically we could use the root user but its never a good idea because it will give anyone who signs in full access to everything in your AWS including your billing so its best to make separate authorized IAM users
@@ -91,8 +89,6 @@ It should look something like this now:
 
 * Now that we have our csv file with our ACCESS KEY and SECRET we can now connect to our lambda function with bash
 
-
-
 - Now its time to connect our code to AWS with serverless
 
 * cd into the root directory of this project and then in bash type the following (note this has already been done in this repo, this creates the boilerplate code so this step is not neccesary if you are starting from cloning or downloading this repo, only perform this command if you are starting by creating and empty directory and cding into it):
@@ -134,9 +130,6 @@ $ cat ~/.aws/credentials and it should list all your access keys
 - $ serverless deploy
 
 AWESOME! Your terminal should have logged out your endpoints for each function! If you have a json viewer extension installed in your brower, navigate to these endpoints and you can view the json that is returned!
-
-
-
 
 If this didn't work, your terminal should display some errors that you can troubleshoot. 
 
